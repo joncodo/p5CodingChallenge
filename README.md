@@ -1,6 +1,6 @@
 #p5 Coding Challenge
 
-Lot of cool fun things to do in the html5 canvas!
+Lots of cool fun things to do in the html5 canvas!
 
 p5 Library: http://p5js.org/download/
 

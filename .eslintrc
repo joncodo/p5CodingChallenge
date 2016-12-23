@@ -1,0 +1,112 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+
+  "rules": {
+    "semi": 2,
+    "curly": [
+      2,
+      "all"
+    ],
+    "operator-linebreak": [
+      2,
+      "after"
+    ],
+    "camelcase": [
+      2,
+      {
+        "properties": "always"
+      }
+    ],
+    "max-len": [
+      2,
+      9999
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "no-multi-str": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-trailing-spaces": 2,
+    "space-unary-ops": [
+      2,
+      {
+        "nonwords": false,
+        "overrides": {}
+      }
+    ],
+    "keyword-spacing": [
+      2,
+      {}
+    ],
+    "space-infix-ops": 2,
+    "space-before-blocks": [
+      2,
+      "always"
+    ],
+    "array-bracket-spacing": [
+      2,
+      "never",
+      {
+        "singleValue": true
+      }
+    ],
+    "space-in-parens": [
+      2,
+      "never"
+    ],
+    "no-multiple-empty-lines": 2,
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "comma-style": [
+      2,
+      "last"
+    ],
+    "dot-notation": 2,
+    "wrap-iife": 2,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "binaryLiterals": true,
+      "blockBindings": true,
+      "classes": true,
+      "defaultParams": true,
+      "destructuring": true,
+      "forOf": true,
+      "generators": true,
+      "modules": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralDuplicateProperties": true,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "octalLiterals": true,
+      "regexUFlag": true,
+      "regexYFlag": true,
+      "spread": true,
+      "superInFunctions": true,
+      "templateStrings": true,
+      "unicodeCodePointEscapes": true,
+      "globalReturn": true,
+      "jsx": true
+    }
+  }
+}
