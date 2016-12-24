@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-  speed = map(mouseX, 0, width, 1, 30)
+  speed = map(mouseX, 0, width, 1, 30);
   background(51);
 
   //start drawing from the center of the screen
@@ -19,5 +19,5 @@ function draw() {
   stars.forEach(function (star) {
     star.update();
     star.show();
-  })
+  });
 }
