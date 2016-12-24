@@ -14,11 +14,8 @@ function draw() {
   rotateY(a);
   a += 0.01;
 
-  noStroke();
   noFill();
-  fill(255);
   stroke(255);
-
 
   box(200);
 }
