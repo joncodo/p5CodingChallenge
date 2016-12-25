@@ -6,6 +6,7 @@ function setup() {
   snake = new Snake();
   food = new Food();
   frameRate(10);
+  food.randomFoodLocation();
 }
 
 

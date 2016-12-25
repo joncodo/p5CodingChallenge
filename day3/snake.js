@@ -28,7 +28,7 @@ function Snake() {
   };
 
   this.eat = function(food) {
-    var d = dist(this.x, this.y, food.x, food,y);
+    var d = dist(this.x, this.y, food.x, food.y);
     if (d < 1) {
       this.total += 1;
       return true;
