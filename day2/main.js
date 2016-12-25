@@ -3,8 +3,6 @@ var a = 0;
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   translate(width / 2, height / 2);
-
-
 }
 
 function draw() {
@@ -14,8 +12,8 @@ function draw() {
   rotateY(a);
   a += 0.01;
 
-  noFill();
-  stroke(255);
+  fill(0,255,0);
+  stroke(255,0,0);
 
-  box(200);
+  box(192);
 }
